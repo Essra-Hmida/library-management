@@ -1,0 +1,88 @@
+.admin-book-management {  
+  padding: 20px;  
+  background-color: #F9F6F0;  
+  border-radius: 10px;  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  
+  max-width: 1400px;  
+  margin: auto; /* Centrer le container */  
+}  
+body {
+  background-color: #ffffff; /* Fond de la page */
+  
+}
+.admin-book-management h2 {  
+  font-size: 24px;  
+  color: #333;  
+  margin-bottom: 20px;  
+}  
+
+.admin-book-management h3 {  
+  font-size: 20px;  
+  color: #555;  
+  margin-top: 20px; /* Marge pour séparer les sections */  
+}  
+
+.form-section {  
+  margin-bottom: 50px; /* Espacement entre les sections de formulaire */  
+  padding: 20px;  
+  border: 1px solid #E4E4E4;  
+  border-radius: 5px;  
+  background-color: #f9f9f9; /* Légère couleur de fond pour les sections */  
+}  
+
+input {  
+  width: calc(100% - 20px);  
+  padding: 10px;  
+  margin: 10px 0;  
+  border: 1px solid #E4E4E4;  
+  border-radius: 5px;  
+}  
+
+button {  
+  background: linear-gradient(90deg, #eea358, #88C2FF);  
+  border: none;  
+  padding: 10px 20px;  
+  border-radius: 8px;  
+  cursor: pointer;  
+  transition: background 0.3s ease;  
+  margin: 5px 0; /* Espacement entre les boutons */  
+}  
+
+button:hover {  
+  background: linear-gradient(90deg, #eea358, #88C2FF);  
+}  
+
+.error-message {  
+  color: red;  
+  margin: 10px 0; /* Espacement pour l'erreur */  
+}  
+
+table {  
+  width: 100%;  
+  border-collapse: collapse;  
+  margin-top: 20px;  
+  overflow-x: auto; /* Permet le défilement horizontal */  
+}  
+
+table thead {  
+  background-color: #F0F4FF; /* Couleur de fond pour l'en-tête */  
+}  
+
+table th, table td {  
+  padding: px;  
+  text-align: left;  
+  border-bottom: 1px solid #E4E4E4;  
+}  
+
+table tr:nth-child(even) {  
+  background-color: #f9f9f9; /* Couleurs alternées pour les lignes */  
+}  
+
+table tr:hover {  
+  background-color: #f1e7ff; /* Survol des lignes pour faciliter la lecture */  
+}  
+
+table button {  
+  padding: 5px 10px; /* Moins de padding pour les boutons de la table */  
+  margin-left: 5px; /* Espacement entre les boutons */  
+}
